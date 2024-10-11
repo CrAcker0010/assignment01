@@ -11,11 +11,7 @@ void convertDecimal(int decimal_value) {
     }
     printf("\n");
     
-    // Convert to octal
-    printf("Octal: %o\n", decimal_value);
-    
-    // Convert to hexadecimal
-    printf("Hexadecimal: %X\n", decimal_value);
+ 
 }
 
 int main() {
@@ -26,6 +22,12 @@ int main() {
     scanf("%d", &decimal_value);
     
     convertDecimal(decimal_value);
+
+       // Convert to octal
+    printf("Octal: %o\n", decimal_value);
+    
+    // Convert to hexadecimal
+    printf("Hexadecimal: %X\n", decimal_value);
     
    return 0; 
 }
